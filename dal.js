@@ -7,7 +7,7 @@ MongoClient.connect(url, { useUnifiedTopology: true }, function (err, client) {
     console.log("Connected successfully to db server");
     console.log(err);
     // connect to myproject database
-   db = client.db('myproject');
+   db = client.db('badbank');
  //  db = heroku config:set MONGODB_URI="mongodb+srv://sboxall:<me12>@badbank.otqja.mongodb.net/client.'badbank'?retryWrites=true&w=majority"
    
 
