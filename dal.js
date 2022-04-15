@@ -1,5 +1,6 @@
 const MongoClient = require('mongodb').MongoClient;
-const url = 'https://git.heroku.com/sherry-boxall-badbankfullstack.git';
+const url =
+  'mongodb+srv://sboxall:me12@badbank.otqja.mongodb.net/badbank?retryWrites=true&w=majority'
 let db = null;
 
 // connect to mongo
